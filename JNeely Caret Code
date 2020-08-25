@@ -16,5 +16,54 @@
         <p>
         Lorem ipsom dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <strong>incididunt ut labore</strong> et dolore <a href=">magna aliqua.</a>
         </p>
+        <!--lists-->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 1</li>
+            <li>List Item 1</li>
+            <li>List Item 1</li>
+        </ol>
+
+        <!--Table-->
+        <table>
+            <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brad Traversy</td>
+                    <td>brad@something.com
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>jdoe@something.com
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Sarah Williams</td>
+                    <td>sara@something.com
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--Forms-->
+        <form action="process.php" method="POST">
+            <label>First Name</label>
+            <input type="text" name="first-name">
+        </form>
+        <div style="margin=top:500px"></div>
     </body>
 </html>
