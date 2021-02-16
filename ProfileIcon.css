@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+/* Your CSS Here 👇 */
+
+#circle {
+  background: white;
+  border-radius: 100%;
+  border:solid white 1px;  
+  width: 200px;
+  height: 200px;
+  background-image: url("https://www.rollingstone.com/wp-content/uploads/2018/08/nicki-minaj-new-album.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+  background-position: center;
+}
+#online{
+  background: #00FF00; 
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position:relative;
+  bottom: 70px;
+  left: -35px;
+}
